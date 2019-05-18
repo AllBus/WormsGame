@@ -1,0 +1,44 @@
+#dpad{
+    background-color: darkblue;
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+
+#display{
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#score{
+    position: absolute;
+    color: white;
+}
+
+#screens{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.fullScreen{
+    width: 100vw;
+    height: 100vh;
+}
+
+.gone{
+    display: none;
+}
+
+.Unselectable{
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
